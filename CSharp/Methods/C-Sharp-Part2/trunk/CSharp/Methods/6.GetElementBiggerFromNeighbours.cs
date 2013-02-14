@@ -1,9 +1,8 @@
 ﻿using System;
 
-
 class Program
 {
-    static bool IsInside(int[] arr, int i) // static method;
+    static bool IsInside(int[] arr, int i)
     {
         return 0 <= i && i < arr.Length;
     }
@@ -29,7 +28,7 @@ class Program
 
     static void Main()
     {
-        int[] arr = { 1, 2, 2, 3, 1 };
+        int[] arr = { 1, 2, 2, 3, 2 };
 
         Console.WriteLine(GetElementBiggerThanNeighbours(arr));
     }
